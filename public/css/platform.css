@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+:root{--navy:#073b5c;--blue:#075c8d;--sky:#e9f4fa;--yellow:#fdbb30;--ink:#22313c;--muted:#6c7c86}body{font-family:'Hind Siliguri','DM Sans',sans-serif;background:#f5f7f8;color:var(--ink)}.navbar{border-bottom:3px solid var(--yellow)!important}.brand-mark{font-family:'DM Sans',sans-serif;color:var(--navy)!important;font-size:1.3rem;font-weight:800;letter-spacing:-.7px}.brand-mark i{color:var(--yellow);font-size:1.45rem}.brand-mark span{color:#e27629}.nav-link{font-weight:600;color:#344b5a!important}.nav-link:hover{color:var(--blue)!important}.btn-brand{background:var(--yellow);border-color:var(--yellow);color:#162d3b;font-weight:700}.btn-brand:hover{background:#f3a900;border-color:#f3a900;color:#162d3b}.site-footer{background:var(--navy);color:#d5e7f0}.janala-hero{background:linear-gradient(115deg,#075981,#063955);border-radius:5px;padding:55px 60px;color:#fff;overflow:hidden;box-shadow:0 12px 26px #123c541c}.hero-kicker{display:inline-block;color:#fbd067;font-weight:600;margin-bottom:12px}.janala-hero h1{font-size:clamp(2.5rem,5vw,4.2rem);line-height:1.08;font-weight:700}.janala-hero h1 em{color:#fbc344;font-style:normal}.janala-hero p{color:#d8e9f2;font-size:1.15rem;max-width:600px}.hero-illustration{height:300px;position:relative}.illustration-circle{width:240px;height:240px;background:#e1f1ef;border-radius:50%;position:absolute;top:30px;left:50%;transform:translateX(-50%);display:grid;place-items:center;color:#0a5b84;font-size:6rem;border:12px solid #f9c34b}.word-card{position:absolute;background:#fff;color:#214b63;padding:12px 16px;border-radius:5px;box-shadow:0 10px 20px #001d2e44;font-family:'DM Sans',sans-serif;font-weight:700}.word-card small{display:block;color:#7f8c91;font-family:'Hind Siliguri',sans-serif}.word-card.top{top:26px;right:0}.word-card.bottom{bottom:25px;left:0}.word-card i{color:#ec9f19}.benefit-strip{background:#fff;border:1px solid #dce6ec;display:grid;grid-template-columns:repeat(4,1fr);padding:22px;border-radius:5px;box-shadow:0 4px 12px #2539460c}.benefit-strip>div{display:grid;grid-template-columns:38px 1fr;column-gap:9px;align-items:center;border-right:1px solid #e4eaee;padding:0 18px}.benefit-strip>div:last-child{border:0}.benefit-strip i{grid-row:span 2;color:#e59a13;font-size:1.7rem}.benefit-strip strong{font-size:1.05rem;color:var(--navy)}.benefit-strip span{font-size:.86rem;color:var(--muted)}.section-heading h2{font-size:2rem;color:var(--navy);font-weight:700}.section-heading>span{color:#e29d1e;font-size:.9rem;font-weight:700}.section-heading p{color:var(--muted)}.janala-course{background:#fff;border:1px solid #dce5e9;border-radius:5px;overflow:hidden;box-shadow:0 5px 12px #263f4c0d;transition:.2s}.janala-course:hover{transform:translateY(-5px);box-shadow:0 12px 26px #263f4c20}.course-banner{height:128px;padding:18px 22px;display:flex;justify-content:space-between;color:#fff;position:relative;overflow:hidden}.course-banner:after{content:'';position:absolute;width:170px;height:170px;border-radius:50%;right:-55px;bottom:-105px;border:22px solid #ffffff2e}.course-banner span{font-weight:600;z-index:1}.course-banner b{font:700 3.1rem/1 'DM Sans';opacity:.85;z-index:1}.banner-1{background:#0b668b}.banner-2{background:#23866f}.banner-3{background:#d1802c}.janala-course h3{font-size:1.28rem;font-weight:700;color:var(--navy)}.janala-course p{color:var(--muted);font-size:.92rem;min-height:52px}.course-meta{display:flex;gap:13px;color:#637782;font-size:.8rem}.course-meta i{color:#dc9c1e}.btn-course{background:#eaf4f8;border:1px solid #c7e1ec;color:#075c8d;font-weight:700}.btn-course:hover{background:#075c8d;color:#fff}.learning-journey{background:#fff;border-top:5px solid var(--yellow);padding:38px;border-radius:5px}.journey-art{min-height:260px;background:#e5f1f6;display:grid;place-items:center;position:relative;color:#0c638a;overflow:hidden}.journey-art i{font-size:6rem;z-index:1}.journey-art span{position:absolute;background:#fff;padding:7px 12px;border-radius:4px;font-weight:700;box-shadow:0 3px 8px #234e621c}.journey-art span:nth-of-type(1){top:24px;left:24px}.journey-art span:nth-of-type(2){bottom:25px;right:30px}.journey-art span:nth-of-type(3){top:48%;right:20px;color:#c88111}.learning-journey h2{font-size:2rem;font-weight:700;color:var(--navy)}.journey-step{display:flex;gap:15px;margin-top:16px}.journey-step b{background:var(--yellow);width:30px;height:30px;display:grid;place-items:center;border-radius:50%;flex:0 0 30px}.journey-step p{color:var(--muted);font-size:.9rem;margin:2px 0}.page-heading{font-family:'Hind Siliguri',sans-serif;color:var(--navy);font-weight:700}.progress{height:8px}.progress-bar{background:#f2ae22}@media(max-width:767px){.janala-hero{padding:35px 24px}.benefit-strip{grid-template-columns:1fr 1fr;gap:16px}.benefit-strip>div{border-right:0;padding:0}.hero-illustration{height:220px}.illustration-circle{width:180px;height:180px;font-size:4rem}.course-meta{flex-direction:column;gap:4px}}
+.lesson-content{
+    font-size:18px;
+    line-height:1.9;
+}
+
+.lesson-content h1,
+.lesson-content h2,
+.lesson-content h3{
+    margin-top:20px;
+    margin-bottom:15px;
+    font-weight:700;
+}
+
+.lesson-content p{
+    margin-bottom:15px;
+}
+
+.lesson-content ul{
+    padding-left:25px;
+}
+
+.lesson-content ol{
+    padding-left:25px;
+}
+
+.lesson-content img{
+    max-width:100%;
+    height:auto;
+}

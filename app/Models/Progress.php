@@ -1,0 +1,40 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+
+class Progress extends Model
+{
+    use HasFactory;
+
+    protected $table = 'progress';
+
+    protected $fillable = [
+        'user_id',
+        'lesson_id',
+        'lesson_completed',
+        'quiz_completed',
+        'quiz_score',
+        'quiz_total',
+        'completed_at',
+    ];
+
+    protected $casts = [
+        'lesson_completed' => 'boolean',
+        'quiz_completed' => 'boolean',
+        'completed_at' => 'datetime',
+    ];
+
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    public function lesson(): BelongsTo
+    {
+        return $this->belongsTo(Lesson::class);
+    }
+}
